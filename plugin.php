@@ -22,5 +22,6 @@
  */
 function blocks_course_team_members_block_init() {
 	register_block_type( __DIR__ . '/build/team-members' );
+	register_block_type( __DIR__ . '/build/team-member' );
 }
 add_action( 'init', 'blocks_course_team_members_block_init' );
